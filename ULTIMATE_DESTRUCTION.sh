@@ -3,7 +3,6 @@ systemctl disable xiond story-testnet sided fueld side nilliond allorad story-te
 docker stop nwaku-compose-nwaku-1 && docker rm nwaku-compose-nwaku-1
 docker stop worker && docker rm worker
 docker stop inference-basic-eth-pred && docker rm inference-basic-eth-pred
-docker stop nillion_verifier && docker rm nillion_verifier
 
 rm -rf .fuelup
 rm -rf .side
