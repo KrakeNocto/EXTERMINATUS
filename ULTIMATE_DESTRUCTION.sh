@@ -6,6 +6,7 @@ docker stop inference-basic-eth-pred && docker rm inference-basic-eth-pred
 
 rm -rf .fuelup
 rm -rf .side
+rm -rf .sided
 rm -rf .xiond
 rm -rf .story
 rm -rf .nillionapp
